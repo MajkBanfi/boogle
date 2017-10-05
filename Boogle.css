@@ -1,0 +1,134 @@
+body {
+  background-color: #ffffff;
+}
+.account {
+  height: 32px;
+  width: 32px;
+  background-color: #555555;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: 18px;
+  border: 0;
+  cursor: pointer;
+}
+.account:hover {
+  background-color: #009900;
+}
+.p {
+  font-family: Arial;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.bell {
+  height: 30px;
+  width: 30px;
+  background-image: url("https://cdn3.iconfinder.com/data/icons/glypho-phones-and-communication/64/bell-circle-512.png");
+  background-size: 30px 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 80px;
+  top: 18px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.bell:hover {
+  opacity: 1;
+}
+.apps {
+  height: 30px;
+  width: 30px;
+  background-image: url("https://visualpharm.com/assets/116/Apps-595b4bb75ba036ed117ff77e.svg");
+  background-size: 30px 30px;
+  position: absolute;
+  right: 125px;
+  top: 18px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.apps:hover {
+  opacity: 1;
+}
+.pictures {
+  height: 24px;
+  width: 34px;
+  position: absolute;
+  right: 170px;
+  top: 26px;
+  opacity: 0.75;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  border: 0;
+  cursor: pointer;
+}
+.pictures:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.gmail {
+  height: 24px;
+  width: 34px;
+  position: absolute;
+  right: 220px;
+  top: 26px;
+  opacity: 0.75;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  border: 0;
+  cursor: pointer;
+}
+.gmail:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.boogle {
+  font-size: 90px;
+  letter-spacing: 2.5px;
+  font-family: Helvetica;
+  font-weight: bolder;
+  text-align: center;
+  width: 272px;
+  height: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+}
+.slovenija {
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 358px;
+  height: 50px;
+  font-size: 22px;
+  text-align: right;
+  color: #3333ff;
+}
+.searchbar {
+  border: 0;
+  height: 42px;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 0.7;
+}
+.searchbar input {
+  width: 630px;
+  height: 42px;
+  font-size: 20px;
+}
+.mic {
+  height: 30px;
+  width: 30px;
+  background-image: url("http://i.imgur.com/l5S4LZ2.png");
+  background-size: 30px 30px;
+  position: absolute;
+  top: 300px;
+  right: 365px;
+  cursor: pointer;
+}
